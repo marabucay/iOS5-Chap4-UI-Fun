@@ -15,6 +15,7 @@
 		00ABF21F17E06001004EAE37 /* BIDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABF21E17E06001004EAE37 /* BIDAppDelegate.m */; };
 		00ABF22217E06001004EAE37 /* BIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00ABF22117E06001004EAE37 /* BIDViewController.m */; };
 		00ABF22517E06001004EAE37 /* BIDViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00ABF22317E06001004EAE37 /* BIDViewController.xib */; };
+		00ABF22C17E0658B004EAE37 /* 946366_187217351458746_603031730_n.png in Resources */ = {isa = PBXBuildFile; fileRef = 00ABF22B17E0658B004EAE37 /* 946366_187217351458746_603031730_n.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		00ABF22017E06001004EAE37 /* BIDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BIDViewController.h; sourceTree = "<group>"; };
 		00ABF22117E06001004EAE37 /* BIDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BIDViewController.m; sourceTree = "<group>"; };
 		00ABF22417E06001004EAE37 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/BIDViewController.xib; sourceTree = "<group>"; };
+		00ABF22B17E0658B004EAE37 /* 946366_187217351458746_603031730_n.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 946366_187217351458746_603031730_n.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,6 +94,7 @@
 			children = (
 				00ABF21617E06001004EAE37 /* Control Fun-Info.plist */,
 				00ABF21717E06001004EAE37 /* InfoPlist.strings */,
+				00ABF22B17E0658B004EAE37 /* 946366_187217351458746_603031730_n.png */,
 				00ABF21A17E06001004EAE37 /* main.m */,
 				00ABF21C17E06001004EAE37 /* Control Fun-Prefix.pch */,
 			);
@@ -150,6 +153,7 @@
 			files = (
 				00ABF21917E06001004EAE37 /* InfoPlist.strings in Resources */,
 				00ABF22517E06001004EAE37 /* BIDViewController.xib in Resources */,
+				00ABF22C17E0658B004EAE37 /* 946366_187217351458746_603031730_n.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
