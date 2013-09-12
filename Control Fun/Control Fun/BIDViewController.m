@@ -12,6 +12,9 @@
 @synthesize nameField;
 @synthesize numberField;
 @synthesize sliderLabel;
+@synthesize leftSwitch;
+@synthesize rightSwitch;
+@synthesize doSomethingButton;
 
 - (void)didReceiveMemoryWarning
 {
@@ -32,6 +35,9 @@
     [self setNameField:nil];
     [self setNumberField:nil];
     [self setSliderLabel:nil];
+    [self setLeftSwitch:nil];
+    [self setRightSwitch:nil];
+    [self setDoSomethingButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -74,6 +80,31 @@
    UISlider *slider = (UISlider *)sender;
     int progressAsInt = (int)roundf(slider.value);
     sliderLabel.text = [NSString stringWithFormat:@"%d", progressAsInt];
+}
+
+- (IBAction)switchChanged:(id)sender {
+    UISwitch *whichSwitch = (UISwitch *)sender;
+    BOOL setting = whichSwitch.isOn;
+    [leftSwitch setOn:setting animated:YES];
+    [rightSwitch setOn:setting animated:YES];
+}
+
+- (IBAction)toggleControls:(id)sender {
+    //o == switches index
+    if ([sender selectedSegmentIndex] ==0)
+    {
+        leftSwitch.hidden = NO;
+        rightSwitch.hidden = NO;
+        doSomethingButton.hidden=YES;
+    }
+    else{
+        leftSwitch.hidden = YES;
+        rightSwitch.hidden=YES;
+        doSomethingButton.hidden=NO;
+    }
+        
+}
+- (IBAction)buttonPressed:(id)sender {
 }
 
 @end
