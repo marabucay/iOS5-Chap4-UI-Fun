@@ -105,6 +105,20 @@
         
 }
 - (IBAction)buttonPressed:(id)sender {
+    UIActionSheet *actionSheet = [[UIActionSheet alloc] initWithTitle:@"Are you sure?" delegate:self cancelButtonTitle:@"No Way!" destructiveButtonTitle:@"Yes, I'm sure!" otherButtonTitles:nil];
+    [actionSheet showInView:self.view];
 }
-
+-(void)actionSheet:(UIActionSheet *) actionSheet didDismissWithButtonIndex:(NSInteger)buttonIndex
+{
+    if (buttonIndex != [actionSheet cancelButtonIndex])
+    {
+        NSString *msg = nil;
+        if(nameField.text.length>0)
+            msg = [[NSString alloc] initWithFormat:@"You can breathe easy, %@, everything went OK.", nameField.text];
+        else
+            msg = @"You can breath easy, everything went OK.";
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Something was done!" message:msg delegate:self cancelButtonTitle:@"Phew!" otherButtonTitles:nil];
+        [alert show];
+    }
+}
 @end
