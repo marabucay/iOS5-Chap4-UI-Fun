@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		009D5FE417E16E4E00E1C698 /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 009D5FE317E16E4E00E1C698 /* blueButton.png */; };
+		009D5FE717E16E5A00E1C698 /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 009D5FE617E16E5A00E1C698 /* whiteButton.png */; };
 		00ABF20F17E06001004EAE37 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABF20E17E06001004EAE37 /* UIKit.framework */; };
 		00ABF21117E06001004EAE37 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABF21017E06001004EAE37 /* Foundation.framework */; };
 		00ABF21317E06001004EAE37 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00ABF21217E06001004EAE37 /* CoreGraphics.framework */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		009D5FE317E16E4E00E1C698 /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		009D5FE617E16E5A00E1C698 /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
 		00ABF20A17E06001004EAE37 /* Control Fun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Control Fun.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		00ABF20E17E06001004EAE37 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		00ABF21017E06001004EAE37 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +100,8 @@
 				00ABF21717E06001004EAE37 /* InfoPlist.strings */,
 				00ABF22B17E0658B004EAE37 /* 946366_187217351458746_603031730_n.png */,
 				00ABF21A17E06001004EAE37 /* main.m */,
+				009D5FE317E16E4E00E1C698 /* blueButton.png */,
+				009D5FE617E16E5A00E1C698 /* whiteButton.png */,
 				00ABF21C17E06001004EAE37 /* Control Fun-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -154,6 +160,8 @@
 				00ABF21917E06001004EAE37 /* InfoPlist.strings in Resources */,
 				00ABF22517E06001004EAE37 /* BIDViewController.xib in Resources */,
 				00ABF22C17E0658B004EAE37 /* 946366_187217351458746_603031730_n.png in Resources */,
+				009D5FE417E16E4E00E1C698 /* blueButton.png in Resources */,
+				009D5FE717E16E5A00E1C698 /* whiteButton.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,6 +286,7 @@
 				00ABF22A17E06001004EAE37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
